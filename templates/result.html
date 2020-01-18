@@ -79,24 +79,14 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
   </div>
 
 
-  <div class="w3-row w3-container">
+ <!-- <div class="w3-row w3-container">
     <div class="w3-center w3-padding-64">
       <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">What We Do</span>
     </div>
     <img src="../static/media_bias_chart.jpg" width="1068" height="1100">
-    <div class="w3-center w3-padding-64">
-      <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
-      <div class="chart" id="bargraph">
-      <script>
-        var graphs = {{plot | safe}};
-        Plotly.plot('bargraph',graphs,{});
-      </script>
-      </div>
-    </div>
   </div>
-
-  <!-- Grid
+-->
+ Grid
   <div class="w3-row-padding" id="ML">
     <div class="w3-center w3-padding-64">
       <h3>Machine Learning</h3>
@@ -106,10 +96,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
     <div class="w3-third w3-margin-bottom">
       <ul class="w3-ul w3-border w3-center w3-hover-shadow">
         <li class="w3-black w3-xlarge w3-padding-32">First</li>
-        <li class="w3-padding-16"><b>...</b> ...</li>
-        <li class="w3-padding-16"><b>...</b> ...</li>
-        <li class="w3-padding-16"><b>...</b> ...</li>
-        <li class="w3-padding-16"><b>...</b> ...</li>
+        <li class="w3-padding-16"><b>{{value}}</b> ...</li>
         <li class="w3-padding-16">
           <h2 class="w3-wide">...</h2>
           <span class="w3-opacity">...</span>
@@ -147,7 +134,7 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
   </div>
 
 
-  <!-- input box -->
+  <!-- input box
   <div class="w3-center w3-padding-64" id="input">
     <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Input</span>
   </div>
@@ -161,21 +148,9 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
     <p>Click the "Submit" button and the form-data will be sent to a page on the server called "/action_page.php".</p>
   </form>
 </div>
-
-
-<!--output box
- <div class="w3-center w3-padding-64" id="output">
-    <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">output</span>
-  </div>
-
-  <form class="w3-container" action="http://localhost:5000/example" target="_blank" method="post">
-    <div class="w3-section">
-      <label>Political Leaning</label>
-      <input class="w3-input w3-border w3-hover-border-black w3-round-xxlarge" style="width: 100%;" type="text" name="Article" required>
-    </div>
-  </form>
-</div>
 -->
+
+
 
 <!-- Footer -->
 
