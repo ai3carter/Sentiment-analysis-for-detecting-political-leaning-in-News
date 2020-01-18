@@ -391,10 +391,12 @@ def get_names():
        LRresult = LRmodel.predict(testx)
        LRresult = trans(LRresult)
 
+
+
        print(f'This is the political lean according to these models\nRandomForest: {RFresult}\nNaive Bayes: {NBresult}\nLinear SVC: {SVresult}\nLinear Regression: {LRresult}')
        returnString=f'This is the political lean according to these models\nRandomForest: {RFresult}\nNaive Bayes: {NBresult}\nLinear SVC: {SVresult}\nLinear Regression: {LRresult}'
 
-       return render_template("result.html", value=f'{RFresult}')
+       return render_template("result.html", value=f'{RFresult}', NBvalue=f'{NBresult}', LinerSVC=f'{SVresult}', LinerRegression=f'{LRresult}')
 
 
        # In[ ]:
@@ -791,6 +793,7 @@ def index():
     """Render Home Page."""
 
     return render_template("index.html")
+
 
 
 
