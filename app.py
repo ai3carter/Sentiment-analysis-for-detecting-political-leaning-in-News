@@ -11,7 +11,7 @@ import nltk
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import stopwords
 from nltk import word_tokenize
-import string
+import sptring
 import re
 from textblob import TextBlob
 from sklearn.feature_extraction import DictVectorizer
