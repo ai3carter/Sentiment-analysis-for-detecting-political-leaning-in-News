@@ -231,7 +231,7 @@ tornado==6.0.3
 tqdm==4.31.1
 traitlets==4.3.2
 unicodecsv==0.14.1
-urllib3==1.24.1
+urllib3==1.24.2
 us==1.0.0
 wasabi==0.6.0
 wcwidth==0.1.7
