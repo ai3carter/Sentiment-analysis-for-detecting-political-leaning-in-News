@@ -1,4 +1,4 @@
-from sqlalchemy import func
+from sqlalchemy.sql import func
 import pandas as pd
 from sklearn import model_selection, preprocessing, linear_model, naive_bayes, metrics, svm
 from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
