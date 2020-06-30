@@ -1,7 +1,7 @@
 absl-py==0.7.1
 alabaster==0.7.12
 # anaconda-client==1.7.2
-anaconda-navigator==1.9.7
+# anaconda-navigator==1.9.7
 anaconda-project==0.8.2
 appnope==0.1.0
 asn1crypto==0.24.0
@@ -231,12 +231,12 @@ tornado==6.0.3
 tqdm==4.31.1
 traitlets==4.3.2
 unicodecsv==0.14.1
-urllib3==1.24.1
+urllib3==1.24.2
 us==1.0.0
 wasabi==0.6.0
 wcwidth==0.1.7
 webencodings==0.5.1
-Werkzeug==0.14.1
+Werkzeug==0.15.3
 widgetsnbextension==3.5.1
 win-inet-pton==1.1.0
 win-unicode-console==0.5
